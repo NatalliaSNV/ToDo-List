@@ -1,0 +1,11 @@
+<div>
+    
+    <div class="title-btn">
+        <h2>{{post.title}}</h2>
+        <button (click)="onClick()" class="btn-delete">&times;</button>
+    </div>
+
+    <p>{{post.text}}</p>
+
+    <ng-content></ng-content>
+</div>
